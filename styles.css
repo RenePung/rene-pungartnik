@@ -1,0 +1,19 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(41, 0, 0) 100%, rgba(30,160,186,1) 100%);
+    color: white;
+    height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Ruwudu', serif;
+}
+
+.container {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
