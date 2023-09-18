@@ -80,7 +80,7 @@ body {
   text-decoration: none;
   color: #fff;
 }
-
+/*Send Me a Message Box*/
 .registration {
   display: flex;
   flex-direction: column;
@@ -103,7 +103,7 @@ button {
   border-radius: 30px;
   cursor: pointer;
 }
-
+/*Send Me a Message Box*/
 .address {
   text-align: center;
   margin-bottom: 10px;
