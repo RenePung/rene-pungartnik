@@ -147,4 +147,29 @@ body {
   #h2-menu {
     padding-right: 1.8rem;
   }
+
+/*place holder - contact section - send me a message*/
+  ::placeholder {
+    text-align: center; 
+ }
+ 
+ /* or, for legacy browsers */
+ 
+ ::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+ /*place holder - contact section - send me a message*/
+ 
   /*contact section ----------------------------------------------------------------------------------------*/
