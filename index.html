@@ -10,19 +10,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rene Pungartnik</title>
     <link rel="stylesheet" href="style.css">
-
 <!--bootstrap css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <!--bootstrap css-->
-
 <!--fas fa icons font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!--fas fa icons font awesome-->
-
 <!--favicon logo tab-->
-    <link rel="icon" href="android-chrome-192x192.png" type="image/x-icon">
+    <link rel="icon" href="https://github.com/RenePung/website-project-2/blob/main/android-chrome-192x192.png?raw=true" type="image/x-icon">
 <!--favicon logo tab-->
-
 <!--font Ruwudu-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,12 +28,14 @@
 
 
 
-<!--BODY------------------------------------------------------------------------------------------------------------------------------------------------->
+
 <body>
-<!--bootstrap navigation bar start-->
+
+
+<!--navigation bar start-->
 <nav class="navbar navbar-expand-lg navbar-dark fs-5 bg-black p-3">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="android-chrome-192x192.png" width="40" height="40">Rene Pungartnik</a>
+      <a class="navbar-brand" href="#"><img src="https://github.com/RenePung/website-project-2/blob/main/android-chrome-192x192.png?raw=true" width="40" height="40">Rene Pungartnik</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -90,7 +88,7 @@
       </div>
     </div>
   </nav>
-<!--bootstrap navigation bar end-->
+<!--navigation bar end-->
 
 
 
@@ -98,7 +96,7 @@
 
 
 
-<!--contacts / footer---------------------------SECTION---------------------------start-->
+<!--contacts section end-->
 <footer class="footer">
   <div class="box">
       <h2 id="h2-menu"> Menu </h2>
@@ -112,19 +110,14 @@
   </div>
   <div class="box">
       <h2 id="h2-gmail"> Send Me a Message </h2>
-
-      
-      <!--email form submit (https://formspark.io/)-->
-      <form action="https://submit-form.com/7ErQoeFT" class="registration">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Email" required />
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Message" required></textarea>
-        <button type="submit">Send</button>
+      <form action="https://formsubmit.co/rene.pungartnik98@gmail.com"  method="POST" class="registration">
+          <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"><!--thank you page (make separate html file)-->
+          <input type="hidden" name="_subject" value="New Message From Your Webpage!">
+          <input type="hidden" name="_autoresponse" value="Thanks For Contacting Me. I Will Respond As Soon As Possible!"><!--auto response-->
+          <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+          <input type="text" name="name" placeholder="Enter Your Message" required>
+          <button type="submit"> Send </button>
       </form>
-      <!--email form submit (https://formspark.io/)-->
-
-      
   </div>
   <div class="box">
       <h2 id="h2-contact"> Contacts </h2>
@@ -141,13 +134,11 @@
       </ul>
   </div>
 </footer>
-<!--contacts / footer---------------------------section---------------------------end-->
 
-
+<!--contacts section end-->
 <!--bootstrap javascript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <!--bootstrap javascript-->
-<script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
-<!--BODY------------------------------------------------------------------------------------------------------------------------------------------------->
 </html>
