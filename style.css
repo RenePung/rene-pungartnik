@@ -4,8 +4,20 @@
   padding: 0;
 }
 
+html {
+  /*stop a footer from floating up*/
+  height: 100%;
+  /*stop a footer from floating up*/
+}
+
 body {
   font-family: 'Ruwudu', serif !important;
+
+  /*stop a footer from floating up*/
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  /*stop a footer from floating up*/
 }
 
 
@@ -54,6 +66,10 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #000000;
+
+  /*stop a footer from floating up*/
+  margin-top: auto;
+  /*stop a footer from floating up*/
 }
 
 .box {
