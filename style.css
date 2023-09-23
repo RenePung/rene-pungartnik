@@ -86,15 +86,21 @@ body {
 }
 /*Links Menu On The Left Side Of Footer*/
 .links li {
-  list-style: none;
+  list-style: circle;
   line-height: 30px;
-  text-align: center;
+  text-align: left;
   font-weight: 100;
+  color: red;
 }
 
 .links li a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
+}
+
+.links li a:hover {
+  text-decoration: underline;
+  color: #ffffff;
 }
 /*Links Menu On The Left Side Of Footer*/
 
