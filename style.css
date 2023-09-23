@@ -86,7 +86,7 @@ body {
 }
 /*Links Menu On The Left Side Of Footer*/
 .links li {
-  list-style: circle;
+  list-style: disc;
   line-height: 30px;
   text-align: left;
   font-weight: 100;
