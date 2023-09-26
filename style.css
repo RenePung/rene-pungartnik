@@ -32,6 +32,11 @@ body {
   /*stop a footer from floating up*/
 }
 
+/*hr line-------------------------------------------------------------------------------------------------*/
+#line1 {
+  border-color: #ffffff; /* Replace with your desired color code */
+}
+/*hr line-------------------------------------------------------------------------------------------------*/
 
 /* CSS for the hover zoom effect - fas fa icons in navbar------------------------------------------------ */
 .nav-link i.fa-xl:hover {
@@ -96,7 +101,6 @@ body {
 .hero-content p {
   font-size: 24px;
   line-height: 1.2;
-  margin-bottom: 40px;
   color: rgb(255, 255, 255);
 }
 
