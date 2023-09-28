@@ -10,6 +10,15 @@ html {
   /*stop a footer from floating up*/
 }
 
+
+
+
+
+
+
+
+
+
 body {
   font-family: 'Ruwudu', serif !important;
 
@@ -32,11 +41,29 @@ body {
   /*stop a footer from floating up*/
 }
 
+
+
+
+
+
+
+
+
+
 /*hr line-------------------------------------------------------------------------------------------------*/
 #line1 {
   border-color: #ffffff; /* Replace with your desired color code */
 }
 /*hr line-------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
 
 /* CSS for the hover zoom effect - fas fa icons in navbar------------------------------------------------ */
 .nav-link i.fa-xl:hover {
@@ -46,11 +73,15 @@ body {
 /* CSS for the hover zoom effect - fas fa icons in navbar------------------------------------------------ */
 
 
+
+
 /*navigation bar logo margin------------------------------------------------------------------------------*/
 .navbar-brand img {
   margin-right: 5px; /* Adjust the margin value as needed */
 }
 /*navigation bar logo margin------------------------------------------------------------------------------*/
+
+
 
 
 /*hover over navbar links change color--------------------------------------------------------------------*/
@@ -59,6 +90,9 @@ body {
   text-decoration: underline;
 }
 /*hover over navbar links change color--------------------------------------------------------------------*/
+
+
+
 
 /*nav bar color change on scroll--------------------------------------------------------------------------*/
 .navbar-scrolled {
@@ -69,6 +103,15 @@ body {
   transition: all 0.5s;
 }
 /*nav bar color change on scroll--------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
 
 /*ABOUT ME SECTION----------------------------------------------------------------------------------------*/
 .hero {
@@ -193,6 +236,10 @@ body {
   }
 }
 /*ABOUT ME SECTION----------------------------------------------------------------------------------------*/
+
+
+
+
 
 
 
