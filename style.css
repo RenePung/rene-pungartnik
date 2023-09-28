@@ -36,6 +36,9 @@ body {
 #line1 {
   border-color: #ffffff; /* Replace with your desired color code */
 }
+#line2 {
+  border: 1px solid white;
+}
 /*hr line-------------------------------------------------------------------------------------------------*/
 
 /* CSS for the hover zoom effect - fas fa icons in navbar------------------------------------------------ */
