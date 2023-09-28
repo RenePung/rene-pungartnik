@@ -65,6 +65,8 @@ body {
 
 
 
+/*NAVIGATION BAR BOOTSTRAP--------------------------------------------------------------------------------*/
+
 /* CSS for the hover zoom effect - fas fa icons in navbar------------------------------------------------ */
 .nav-link i.fa-xl:hover {
   transform: scale(1.2); /* Adjust the scale factor as needed */
@@ -103,6 +105,8 @@ body {
   transition: all 0.5s;
 }
 /*nav bar color change on scroll--------------------------------------------------------------------------*/
+
+/*NAVIGATION BAR BOOTSTRAP--------------------------------------------------------------------------------*/
 
 
 
