@@ -323,22 +323,32 @@
 <!--   *****   Isotope Filter Link   *****  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 
+
 <script type="text/javascript">
+	// Initialize Isotope and store the container in a variable
 	var $galleryContainer = $('.gallery').isotope({
 		itemSelector: '.item',
-  		layoutMode: 'fitRows'
-	})
+		layoutMode: 'fitRows'
+	});
 
-	$('.button-group .button').on('click', function(){
+	// Click event handler for filter buttons
+	$('.button-group .button').on('click', function() {
 		$('.button-group .button').removeClass('active');
 		$(this).addClass('active');
-
 		var value = $(this).attr('data-filter');
+		
+		// Filter the items in the gallery container
 		$galleryContainer.isotope({
-			filter: value 
-		})
-	})
+			filter: value
+		});
+	});
+
+	// Call reLayout once the images are loaded
+	$(window).on('load', function() {
+		$galleryContainer.isotope('layout');
+	});
 </script>
+
 
 
     <script src="index.js"></script>
