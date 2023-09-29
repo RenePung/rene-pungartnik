@@ -359,6 +359,25 @@ div.gallery .item:hover img{
 }
 
 
+
+/*GLOW EFFECT AND BORDER OF IMAGES*/
+/* Add a border around image cards */
+.item {
+  border: 2px solid #ffffff; /* You can adjust the border width and color */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Add a transition effect for smoother hover */
+  border-radius: 3px;
+}
+
+/* Glow effect on hover */
+.item:hover {
+  border-color: #ffffff; /* Change border color on hover */
+  box-shadow: 0 0 10px #ffffff; /* Add a glow effect on hover */
+}
+/*GLOW EFFECT AND BORDER OF IMAGES*/
+
+
+
+
 @media(max-width: 1024px){
   div.gallery .item{
     width: calc(50% - 8px);
