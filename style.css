@@ -83,15 +83,11 @@ body {
 /* CSS for the hover zoom effect - fas fa icons in navbar------------------------------------------------ */
 
 
-
-
 /*navigation bar logo margin------------------------------------------------------------------------------*/
 .navbar-brand img {
   margin-right: 5px; /* Adjust the margin value as needed */
 }
 /*navigation bar logo margin------------------------------------------------------------------------------*/
-
-
 
 
 /*hover over navbar links change color--------------------------------------------------------------------*/
@@ -100,8 +96,6 @@ body {
   text-decoration: underline;
 }
 /*hover over navbar links change color--------------------------------------------------------------------*/
-
-
 
 
 /*nav bar color change on scroll--------------------------------------------------------------------------*/
@@ -264,11 +258,13 @@ body {
   padding: 30px 8%;
   background-color: transparent;
 }
+
 .portfolio .section-head{
   max-width: 700px;
   margin: 0px auto 25px;
   text-align: center;
 }
+
 .section-head h1{
   position: relative;
   font-size: 32px;
@@ -282,6 +278,7 @@ body {
   text-align: center;
   margin-bottom: 40px;
 }
+
 .button-group .button{
   display: inline-block;
   padding: 10px 20px;
@@ -298,12 +295,14 @@ body {
   outline: none;
   cursor: pointer;
 }
+
 .button-group .button.active{
   background-color: transparent;
   color: white;
   text-decoration: underline overline 3px white;
   text-shadow:0 0 3px whitesmoke;
 }
+
 .button-group .button:hover{
   background-color: transparent;
   color: white;
@@ -318,6 +317,7 @@ div.gallery{
   display: flex;
   flex-wrap: wrap;
 }
+
 div.gallery .item{
   position: relative;
   margin: 4px;
@@ -325,6 +325,7 @@ div.gallery .item{
   overflow: hidden;
   cursor: pointer;
 }
+
 .item img{
   width: 100%;
   height: 100%;
@@ -332,9 +333,11 @@ div.gallery .item{
   display: block;
   transition: 0.3s;
 }
+
 div.gallery .item:hover img{
   transform: scale(1.15);
 }
+
 .item .overlay{
   position: absolute;
   width: 100%;
@@ -351,9 +354,11 @@ div.gallery .item:hover img{
   transition: opacity 0.2s ease-in-out;
   opacity: 0;
 }
+
 .item:hover .overlay{
   opacity: 1;
 }
+
 .item .overlay a{
   display: inline-block;
   padding: 8px 16px;
@@ -363,11 +368,11 @@ div.gallery .item:hover img{
   font-size: 14px;
   transition: 0.3s;
 }
+
 .item .overlay a:hover{
   background-color: var(--body-clr);
   color: var(--primary-clr);
 }
-
 
 /*glow effect and border of images*/
 
