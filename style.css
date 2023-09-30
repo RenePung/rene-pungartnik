@@ -283,8 +283,8 @@ body {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
-  background-color: #c8d1d8;
-  color: var(--primary-clr);
+  background-color: transparent;
+  color: white;
   font-style: 12px;
   font-weight: 800;
   text-transform: uppercase;
@@ -296,12 +296,14 @@ body {
   cursor: pointer;
 }
 .button-group .button.active{
-  background-color: var(--primary-clr);
-  color: var(--body-clr);
+  background-color: transparent;
+  color: white;
+  text-decoration: underline overline 3px white;
 }
 .button-group .button:hover{
-  background-color: var(--primary-clr);
-  color: var(--body-clr);
+  background-color: transparent;
+  color: white;
+  text-decoration: underline overline 3px white;
 }
 div.gallery{
   width: 100%;
