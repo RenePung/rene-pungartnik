@@ -299,13 +299,13 @@ body {
   background-color: transparent;
   color: white;
   text-decoration: underline overline 3px white;
-  text-shadow:0 0 2px whitesmoke;
+  text-shadow:0 0 3px whitesmoke;
 }
 .button-group .button:hover{
   background-color: transparent;
   color: white;
   text-decoration: underline overline 3px white;
-  text-shadow:0 0 2px whitesmoke;
+  text-shadow:0 0 3px whitesmoke;
 }
 div.gallery{
   width: 100%;
