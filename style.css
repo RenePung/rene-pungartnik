@@ -15,6 +15,7 @@ html {
   --primary-light-clr: #eaf3fa;
   --links-clr: #186f78;
   --text-clr: #3f7277;
+  /*   *****   Storing Colors In Variables   *****  */
 }
 
 
@@ -82,13 +83,11 @@ body {
 }
 /* CSS for the hover zoom effect - fas fa icons in navbar------------------------------------------------ */
 
-
 /*navigation bar logo margin------------------------------------------------------------------------------*/
 .navbar-brand img {
   margin-right: 5px; /* Adjust the margin value as needed */
 }
 /*navigation bar logo margin------------------------------------------------------------------------------*/
-
 
 /*hover over navbar links change color--------------------------------------------------------------------*/
 .nav-link:hover {
@@ -97,12 +96,12 @@ body {
 }
 /*hover over navbar links change color--------------------------------------------------------------------*/
 
-
 /*nav bar color change on scroll--------------------------------------------------------------------------*/
 .navbar-scrolled {
   background-color: black;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
+
 .navbar {
   transition: all 0.5s;
 }
