@@ -275,6 +275,9 @@ body {
   margin: 10px 0px 30px;
   color: white;
 }
+
+
+/*Buttons filter navigation projects section*/
 .button-group{
   text-align: center;
   margin-bottom: 40px;
@@ -307,6 +310,9 @@ body {
   text-decoration: underline overline 3px white;
   text-shadow:0 0 3px whitesmoke;
 }
+/*Buttons filter navigation projects section*/
+
+
 div.gallery{
   width: 100%;
   display: flex;
@@ -363,8 +369,8 @@ div.gallery .item:hover img{
 }
 
 
-
 /*GLOW EFFECT AND BORDER OF IMAGES*/
+
 /* Add a border around image cards */
 .item {
   border: 2px solid #ffffff; /* You can adjust the border width and color */
@@ -377,11 +383,11 @@ div.gallery .item:hover img{
   border-color: #ffffff; /* Change border color on hover */
   box-shadow: 0 0 10px #ffffff; /* Add a glow effect on hover */
 }
+
 /*GLOW EFFECT AND BORDER OF IMAGES*/
 
 
-
-
+/*Responsivnes of projects section filter gallery*/
 @media(max-width: 1024px){
   div.gallery .item{
     width: calc(50% - 8px);
@@ -394,6 +400,8 @@ div.gallery .item:hover img{
     margin: 4px 0px;
   }
 }
+/*Responsivnes of projects section filter gallery*/
+
 /*PROJECTS SECTION----------------------------------------------------------------------------------------*/
 
 
