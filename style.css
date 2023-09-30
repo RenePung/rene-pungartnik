@@ -369,7 +369,7 @@ div.gallery .item:hover img{
 }
 
 
-/*GLOW EFFECT AND BORDER OF IMAGES*/
+/*glow effect and border of images*/
 
 /* Add a border around image cards */
 .item {
@@ -384,7 +384,7 @@ div.gallery .item:hover img{
   box-shadow: 0 0 10px #ffffff; /* Add a glow effect on hover */
 }
 
-/*GLOW EFFECT AND BORDER OF IMAGES*/
+/*glow effect and border of images*/
 
 
 /*Responsivnes of projects section filter gallery*/
