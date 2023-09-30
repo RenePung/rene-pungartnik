@@ -338,7 +338,7 @@
 		});
 	});
 
-	// Call reLayout once the images are loaded
+	// Call reLayout once the images are loaded - fixes images overlaying each other when page is loaded
 	$(window).on('load', function() {
 		$galleryContainer.isotope('layout');
 	});
