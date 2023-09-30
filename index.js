@@ -5,7 +5,7 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Welcome!')
+typewriter.typeString('Welcome!') // Change typewriter message display
     .pauseFor(250000000000)
     .deleteAll()
     .start();
